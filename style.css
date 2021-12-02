@@ -1,0 +1,69 @@
+
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+ 
+
+*{
+
+   box-sizing: border-box;
+
+}
+
+
+body{
+     
+   background-image: url("./image/alberto-restifo-cFplR9ZGnAk-unsplash.jpg"); 
+   background-position: center center;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   min-height: 100vh; 
+   font-family: 'Nanum Gothic', sans-serif;
+   margin: 0;
+
+
+
+}
+
+h1{
+
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: -10rem;
+}
+
+.big-text{
+
+font-size: 6rem;
+line-height:1;
+margin: 1rem 2rem;
+font-weight: bold;
+
+
+}
+
+.countdown-container{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+
+
+}
+.countdown-el{
+
+text-align: center;
+
+
+
+}
+.countdown-el span{
+
+    font-size: 1.5rem;
+    
+    
+    
+    }
